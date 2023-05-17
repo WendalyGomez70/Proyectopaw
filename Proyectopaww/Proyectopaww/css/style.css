@@ -1,0 +1,282 @@
+body{
+    background-image: url(imag/fondoverde.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+p{
+    color:rgb(24, 107, 107);
+}
+
+.galleta
+{
+    margin: auto ;
+}
+.fw-bolder
+{
+    text-align: justify;
+
+}
+.elote
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.cebolla
+{
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+footer{
+    float: left;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    border-top: 2px solid #000;
+    background-color: #094779;
+    color:rgb(185, 74, 130);
+    text-align: center;
+    padding-top: 10px;;
+}
+/* tabla de de tegrantes*/
+.picture {
+    background-color: #36916e;
+    border: 3px solid #458036; padding: 3px;
+    font: 11x/2.4em Arial, sans-serif;
+}
+.picture img {
+    border: 3px solid #77c967;
+    vertical-align:middle;
+    margin-bottom: 4px;
+}
+.right {
+    margin: 0.7em 0pt 0.7em 0.9em;
+    float:right;
+}
+.left {
+    margin: 0.7em 0.7em 0.9em 0;
+    float:left;
+}
+/* tabla ¿Cómo podemos arreglar la calidad del agua?*/
+.pictur {
+    background-color:#77c96700;
+    border: 3px solid #1cc0a5b7; padding: 3px;
+    font: 16px Arial, sans-serif;
+}
+.pictur img {
+    vertical-align:middle;
+    margin-bottom: 4px;
+}
+.right {
+    margin: 0.7em 0pt 0.7em 0.9em;
+    float:right;
+}
+.left {
+    margin: 0.7em 0.7em 0.9em 0;
+    float:left;
+}
+/* tabla con estilo css*/
+.tabla {font-family:sans-serif;}
+
+table { font-family: «Lucida Sans Unicode», «Lucida Grande», Sans-Serif;
+font-size: 12px; margin: 45px; width: 480px; text-align: left; border-collapse: collapse; }
+
+th { font-size: 13px; font-weight: normal; padding: 8px; background: #4a9c2900;
+border-top: 4px solid #aabcfe; border-bottom: 1px solid #7edd7e; color: #039; }
+
+td { padding: 8px; background: #48d16a00; border-bottom: 1px solid #7dce9f;
+color: rgb(6, 0, 10); border-top: 1px solid transparent; }
+
+footer {
+    position: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    border-top: 2px solid black;
+    background-color: rgb(7, 75, 47);
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+  }
+  
+aside{
+    padding: 7px;
+    background-color: #77c967;
+    font-style: italic;
+    float: right;
+    width: 500px; /*ajusta el cuadro*/
+    border: 4px solid;  
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 1);
+}
+.contenedor 
+{
+    background-color: #2e8669;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+}
+.contenedor-imagenes {
+    display: flex;
+  }
+  h2 
+  {
+      font-size: 28px;
+      font-weight: bold;
+      color: #381919;
+      margin-bottom: 20px;
+  }
+    
+  ul 
+  {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+    
+  li 
+  {
+      font-size: 18px;
+      line-height: 1.5;
+      color: #1b1919;
+      margin-bottom: 10px;
+  }
+    
+  li:before 
+  {
+      content: "\2022"; /* Agrega un punto para cada elemento de la lista */
+      color: #1abc9c;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+  }
+  ul li a:hover
+  {
+      margin-left: 10px;
+      transform: rotate(4deg);
+      -moz-transform: rotate(4deg);
+      -webkit-transform: rotate(4deg);
+      
+  }
+  .navbar 
+  {
+      background-color: #30a574;  
+  }
+  
+  h3:before {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 2px;
+      background-color: #ccc;
+      margin-bottom: 20px;
+  }
+  
+  div p
+  {
+      color:rgb(24, 4, 4);
+  }
+  .tamal
+  {
+    image-rendering: auto;
+    text-align: justify;
+    color:rgb(24, 4, 4);
+  }
+  .alinear
+  {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+  }
+    
+.contenedor-acordeon{
+    background-color: rgb(21, 81, 11);
+}
+.contenedor-acordeon h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 35px;
+    background-color: rgba(42, 159, 21, 0.176);
+}
+.acordeon{
+    background-color: #3a902416;
+}
+.acordeon label{
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+    background: #17821c5c;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 2px;
+    transition: all 300ms ease;
+    height: 60px;
+}
+.acordeon label:hover{
+    background: #095c10;
+}
+.acordeon .contenido-acordeon{
+    padding: 0px;
+    margin: 0px 20px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 300ms ease;
+}
+.btn-acordeon:checked ~ .contenido-acordeon{
+    max-height: 550px;
+    padding: 15px 0px;
+}
+.btn-acordeon{
+    display: none;
+}
+/* Apartado de comentarios */
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  .header{
+    width: 100%;
+    height: 40px;
+    background: rgba(104, 28, 110, 0.76);
+  }
+  .cnt-header{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    top: 5px;
+  }
+  .lbl-hader{
+    font-family: cursive;
+    font-size: 20px;
+  }
+  .ctn-data{
+    width: 90%;
+    margin:auto;
+    padding: 10px;
+  }
+  .p-data{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-top: 10px;
+    background: rgba(179, 93, 165, 0.671);
+  }
+  .ctn-lbl-comentar{
+    width: 100%;
+    text-align: center;
+  }
+  .lbl-comentar{
+    font-family: cursive;
+    font-size: 25px;
+
+    text-shadow: 1px 2px 1px rgb(202, 4, 103);
+  }
